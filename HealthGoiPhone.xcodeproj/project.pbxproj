@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0227951CC871D80043C7B0 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0227941CC871D80043C7B0 /* LocalAuthentication.framework */; };
 		EFCC13E81CC3C15C00663EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCC13E71CC3C15C00663EFF /* AppDelegate.swift */; };
 		EFCC13EA1CC3C15C00663EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCC13E91CC3C15C00663EFF /* ViewController.swift */; };
 		EFCC13ED1CC3C15D00663EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCC13EB1CC3C15D00663EFF /* Main.storyboard */; };
 		EFCC13EF1CC3C15D00663EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCC13EE1CC3C15D00663EFF /* Assets.xcassets */; };
-		EFCC13F21CC3C15D00663EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCC13F01CC3C15D00663EFF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF0227941CC871D80043C7B0 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		EFCC13E41CC3C15C00663EFF /* HealthGoiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthGoiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCC13E71CC3C15C00663EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFCC13E91CC3C15C00663EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFCC13EC1CC3C15D00663EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFCC13EE1CC3C15D00663EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EFCC13F11CC3C15D00663EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFCC13F31CC3C15D00663EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -29,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0227951CC871D80043C7B0 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +39,7 @@
 		EFCC13DB1CC3C15C00663EFF = {
 			isa = PBXGroup;
 			children = (
+				EF0227941CC871D80043C7B0 /* LocalAuthentication.framework */,
 				EFCC13E61CC3C15C00663EFF /* HealthGoiPhone */,
 				EFCC13E51CC3C15C00663EFF /* Products */,
 			);
@@ -58,7 +60,6 @@
 				EFCC13E91CC3C15C00663EFF /* ViewController.swift */,
 				EFCC13EB1CC3C15D00663EFF /* Main.storyboard */,
 				EFCC13EE1CC3C15D00663EFF /* Assets.xcassets */,
-				EFCC13F01CC3C15D00663EFF /* LaunchScreen.storyboard */,
 				EFCC13F31CC3C15D00663EFF /* Info.plist */,
 			);
 			path = HealthGoiPhone;
@@ -123,7 +124,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFCC13F21CC3C15D00663EFF /* LaunchScreen.storyboard in Resources */,
 				EFCC13EF1CC3C15D00663EFF /* Assets.xcassets in Resources */,
 				EFCC13ED1CC3C15D00663EFF /* Main.storyboard in Resources */,
 			);
@@ -150,14 +150,6 @@
 				EFCC13EC1CC3C15D00663EFF /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EFCC13F01CC3C15D00663EFF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFCC13F11CC3C15D00663EFF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -250,6 +242,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HealthGoiPhone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.chmod777.HealthGoiPhone;
@@ -261,6 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HealthGoiPhone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.chmod777.HealthGoiPhone;
@@ -287,6 +281,7 @@
 				EFCC13F81CC3C15D00663EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
